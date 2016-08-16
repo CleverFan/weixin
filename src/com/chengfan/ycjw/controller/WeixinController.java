@@ -79,7 +79,7 @@ public class WeixinController {
 	@Test
 	public void test() {
 		
-		String signature = "E56004E954970049C37E8E3413432A7BB17D1A93"; // 微信加密签名  
+		String signature = "xxxxxxxxxxxxxxxxxxxxxxxx"; // 微信加密签名  
         String timestamp = "12131"; // 时间戳  
         String nonce = "32432";// 随机数  
         String echostr = "fddsads";// 随机字符串  

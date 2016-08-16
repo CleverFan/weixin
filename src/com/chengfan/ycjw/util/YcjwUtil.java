@@ -82,7 +82,7 @@ public class YcjwUtil {
 		// String result = httpRequest(url.replace("{viewstate}", viewState));
 		// System.out.println(result);
 		// getCLssTable("ASP.NET_SessionId=xlecmo45k0grf4fugxoyfa45");
-		List<StudentTable> list = queryTableList("201426810303", "950818",
+		List<StudentTable> list = queryTableList("学号", "密码",
 				"classLis", "2015/2016(2)");
 		for (int i = 0; i < list.size(); i++) {
 			list.get(i);
@@ -475,6 +475,6 @@ public class YcjwUtil {
 	
 	@Test
 	public void test() {
-		System.out.println(queryScoreUtil("201426810303", "950818", "2015/1016(2)"));
+		System.out.println(queryScoreUtil("学号", "密码", "2015/1016(2)"));
 	}
 }
